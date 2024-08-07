@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: chinook
+    database: chinook
+    schema: public
+        
+    tables:
+    - name: album  
+      identifier: album 

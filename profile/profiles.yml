@@ -1,0 +1,12 @@
+chinook:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: 127.0.0.1
+      user: postgres
+      password: Simant@21
+      port: 5432
+      dbname: chinook # or database instead of dbname
+      schema: public
+      threads: 1
